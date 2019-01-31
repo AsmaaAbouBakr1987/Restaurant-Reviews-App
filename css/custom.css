@@ -6,7 +6,9 @@
     width: 25%;
     display: inline-block;
 }
-
+#footer {
+    padding: 20px 0;
+}
 @media only screen and (min-device-width : 320px) and (max-device-width : 750px) {
 
 	/* internal pages
@@ -50,6 +52,40 @@
 
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	/* internal pages
+	===================*/
+	nav {
+    	padding-top: 5%;
+	}
+	#breadcrumb {
+	    width: 100%;
+	}
+	.inside #map-container {
+	    background: none;
+	    height: 400px;
+	    position: relative;
+	    right: 0;
+	    top: 185px;
+	    width: 100%;
+	}
+	#restaurant-container{
+	    margin: 0 auto;
+	    width: 90%;
+	    padding: 25% 5% 5%;
+	}
+	#reviews-container {
+	    margin: 0 auto;
+	    width: 90%;
+	    padding: 5%;
+	}
+	#footer {
+	    padding: 5%;
+	}
+	.inside #footer {
+	    position: relative;
+	    width: 90%;
+	}
+
 	#restaurants-list li {
 	    width: 40%;
 	}
