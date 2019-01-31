@@ -1,0 +1,7 @@
+#restaurants-list {
+    text-align: left;
+}
+#restaurants-list li {
+    width: 25%;
+    display: inline-block;
+}
