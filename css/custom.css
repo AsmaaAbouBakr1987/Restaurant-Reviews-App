@@ -1,4 +1,6 @@
-
+.filter-options {
+    padding: 15px 0;
+}
 #restaurants-list li {
     width: 25%;
     display: inline-block;
