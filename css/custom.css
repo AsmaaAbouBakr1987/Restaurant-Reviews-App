@@ -96,8 +96,11 @@ nav h1 {
 	    position: relative;
 	    width: 90%;
 	}
-
+	/* main page
+	=============*/
 	#restaurants-list li {
 	    width: 40%;
+	    margin: 1%;
+	    padding: 3%;
 	}
 }
