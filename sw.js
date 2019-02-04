@@ -1,7 +1,7 @@
 let staticCacheName = 'rest-app-v1';
 self.addEventListener('install', function(event) {
   event.waitUntil(
-    caches.open('rest-app-v1').then(function(cache) {
+    caches.open(staticCacheName).then(function(cache) {
       return cache.addAll([
         'js/main.js',
         'js/dbhelper.js',
